@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+   <!-- Landing Page - No Navigation Menu -->
+  <main class="landing-page">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge">🏗️ Since 1995</div>
+        <h1 class="hero-title">
+          Heavy Construction & <span class="highlight">Manufacturing</span> Excellence
+        </h1>
+        <p class="hero-subtitle">
+          We build the foundations of tomorrow — from industrial complexes to precision manufacturing.  
+          <strong>Get a free, no-obligation quote within 24 hours.</strong>
+        </p>
+        <div class="hero-cta">
+          <a href="#quote-form" class="btn-primary">🚀 GET MY FREE QUOTE →</a>
+          <div class="trust-badge">⭐ 4.9/5 from 500+ clients</div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">30+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">24hr</span>
+            <span class="stat-label">Quote Response</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">Why Industry Leaders <span class="highlight">Choose Mirko Construction
+        </span></h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">🏗️</div>
+            <h3>Heavy Construction</h3>
+            <p>Industrial complexes, warehouses, bridges, and commercial foundations built to last.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">⚙️</div>
+            <h3>Precision Manufacturing</h3>
+            <p>Steel fabrication, concrete components, and custom industrial parts.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">✅</div>
+            <h3>Licensed & Insured</h3>
+            <p>Full OSHA compliance, liability coverage, and certified workforce.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">📋</div>
+            <h3>On-Time Delivery</h3>
+            <p>97% on-time project completion rate. We respect your deadlines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof / Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Trusted by <span class="highlight">500+ Contractors & Developers</span></h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"BuildPro delivered our 50,000 sq ft warehouse 2 weeks early. The quality is outstanding. Will definitely work with them again."</p>
+            <div class="client">
+              <strong>Michael R.</strong>
+              <span>Operations Director, Metro Construction</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Their manufacturing precision is unmatched. Custom steel components arrived exactly to spec. Saved us 15% compared to competitors."</p>
+            <div class="client">
+              <strong>Sarah T.</strong>
+              <span>Project Manager, Industrial Solutions</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Responsive, professional, and safety-focused. They handled all permits and inspections. A true partner."</p>
+            <div class="client">
+              <strong>David K.</strong>
+              <span>Owner, K&H Developers</span>
+            </div>
+          </div>
+        </div>
+        <div class="client-logos">
+          <span>Trusted by leading companies:</span>
+          <div class="logo-strip">
+            <span class="logo-placeholder">🏢 STEELCORP</span>
+            <span class="logo-placeholder">🏭 INDUSTRIAL CO.</span>
+            <span class="logo-placeholder">🚧 CONTRACTOR PLUS</span>
+            <span class="logo-placeholder">⚙️ MEGA BUILD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lead Capture Form Section -->
+    <section id="quote-form" class="quote-section">
+      <div class="container">
+        <div class="quote-wrapper">
+          <div class="quote-content">
+            <h2>🎯 Get Your <span class="highlight">Free Construction Quote</span></h2>
+            <p>Tell us about your project and we'll get back to you within 24 hours. No obligation, completely free.</p>
+            <ul class="benefit-list">
+              <li>✓ Detailed, transparent pricing</li>
+              <li>✓ Site visit & consultation included</li>
+              <li>✓ Compare options with expert advice</li>
+              <li>✓ 100% confidential & no spam</li>
+            </ul>
+            <div class="guarantee">
+              🔒 Your information is secure. We never share your data.
+            </div>
+          </div>
+          <div class="quote-form">
+            <form id="leadForm" action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required placeholder="john@company.com">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+              </div>
+              <div class="form-group">
+                <label for="project">Project Type</label>
+                <select id="project" name="project">
+                  <option value="">Select project type</option>
+                  <option value="construction">New Construction</option>
+                  <option value="manufacturing">Manufacturing / Fabrication</option>
+                  <option value="renovation">Renovation / Expansion</option>
+                  <option value="other">Other / Custom Project</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Project Details (optional)</label>
+                <textarea id="message" name="message" rows="3" placeholder="Tell us about your project..."></textarea>
+              </div>
+              <button type="submit" class="btn-submit">📋 GET MY FREE QUOTE →</button>
+              <p class="form-note">*Required fields. We respond within 24 hours.</p>
+            </form>
+            <div id="formSuccess" class="form-success hidden">
+              <div class="success-icon">✅</div>
+              <h3>Thank you!</h3>
+              <p>Your quote request has been sent. We'll contact you within 24 hours.</p>
+              <button id="resetForm" class="btn-small">Request Another Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section (Removes Objections) -->
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-question">📋 Do you offer free quotes?</div>
+            <div class="faq-answer">Yes! All initial quotes and consultations are completely free with no obligation.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">🏗️ What types of projects do you handle?</div>
+            <div class="faq-answer">Commercial construction (warehouses, offices, retail), industrial manufacturing (steel, concrete components), and heavy infrastructure.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">✅ Are you licensed and insured?</div>
+            <div class="faq-answer">Absolutely. Fully licensed, bonded, and insured with $5M liability coverage. OSHA certified workforce.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">⏱️ How fast can you start?</div>
+            <div class="faq-answer">Most projects begin within 2-4 weeks after quote acceptance. Rush options available.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (Minimal) -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>© 2025 Mirko Construction & Manufacturing. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Unsubscribe</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="index.js" charset="utf-8"></script>  
+</body>
+</html>
